@@ -19,8 +19,9 @@ export default class AboutMe extends Component {
           </div>
 
           <h1 className={"myName inner"}>I'm
-            <span id={"typed"}></span>
-            <h1 className={"hideContent myDesc"}>| Web Developer | Student | Nerd |</h1>
+            
+            <span id={"typed"}> </span>
+            <div className={"hideContent myDesc"}>| Web Developer | Student | Nerd |</div>
           </h1>
 
           <a className={"down page-scroll"} href={"#aboutsSection"}>

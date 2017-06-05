@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
         Typed.new("#typed", {
-            strings: [" a web developer.", "a student.", "a nerd.", 
+            strings: [" a web developer.", " a student.", " a nerd.", 
             " Christian Trinidad"],
             typeSpeed: 40,
             startDelay:500,

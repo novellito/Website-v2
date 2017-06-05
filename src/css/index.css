@@ -242,6 +242,12 @@ nav a:focus {
 
 .myDesc {
     text-shadow: 0 0 0.313em #fff, 0 0 0.625em #fff;
+    
+}
+
+.hideContent.myDesc{
+        font-size: 40px;
+
 }
 
 #aboutsSection {
