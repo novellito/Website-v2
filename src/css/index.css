@@ -1,0 +1,448 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+/*body {
+    overflow-x: hidden;
+}*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -20;
+    background: #67A6FF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+}
+
+
+/*end of particle js content*/
+
+
+/*start of type cursor css*/
+
+.typed-cursor {
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.typed-fade-out {
+    opacity: 0;
+    animation: 0;
+    transition: opacity .25s;
+}
+
+.type-wrap {
+    border-radius: 0px;
+}
+
+
+/*end of type effect css*/
+
+#aboutMe {
+    width: 100%;
+    height: 100vh;
+}
+
+.me {
+    box-shadow: none;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    width: 240px;
+    height: 240px;
+}
+
+.myName {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 80px;
+}
+
+.myName.inner {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+}
+
+nav {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background: #34607F;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    z-index: 10;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #B4E0FF;
+}
+
+nav a:active {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:focus {
+    text-decoration: none;
+}
+
+.page-header {
+    box-sizing: border-box;
+    -webkit-transition: top 0.6s;
+    -moz-transition: top 0.6s;
+    transition: top 0.6s;
+    border-bottom: 0px;
+    margin-top: 0px;
+    z-index: 10;
+}
+
+.page-header.off-canvas {
+    top: -89px;
+}
+
+.page-header.fixed {
+    top: 0;
+    z-index: 10;
+}
+
+.personalLinks a {
+    display: inline-block;
+}
+
+.personalLinks i,
+.personalLinks.mini i {
+    font-size: 40px;
+    margin-right: 25px;
+    color: white;
+}
+
+.personalLinks {
+    margin: 7% -4%;
+}
+
+.personalLinks i:hover,
+.personalLinks.mini i:hover {
+    color: #00A0FF;
+    transition: .3s;
+}
+
+.hideContent {
+    opacity: 0;
+    text-align: center;
+}
+
+.reveal {
+    opacity: 1;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out
+}
+
+.myDesc {
+    text-shadow: 0 0 0.313em #fff, 0 0 0.625em #fff;
+}
+
+#aboutsSection {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background: #3B5F92;
+}
+
+#aboutsSection p {
+    color: white;
+    margin-top: 20px;
+    font-size: 1.5em;
+    overflow: auto;
+}
+
+.desc {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#skills {
+    background: #edf6ff;
+    padding-bottom: 20px;
+}
+
+.about-me-header,
+.skillTitle,
+.projectTitle,
+.follow {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("../img/space.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.follow {
+    font-size: 50px;
+}
+
+.colored {
+    font-size: 80px;
+    margin: 0px 15px 0px 15px;
+}
+
+.dev {
+    margin: 40px 0px 40px 0px;
+}
+
+.skillTitle h3 {
+    float: left;
+}
+
+.dev img {
+    width: 100px;
+    height: 100px;
+    margin: 0 5px;
+    padding-bottom: 20px;
+}
+
+
+#projects {
+    height: 100%;
+}
+
+#projects .container {
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+
+#contact-section {
+    color: white;
+}
+
+#contact-section img {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#contact-section .row {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contact-section a,
+#contact-section p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#contact-section a:hover {
+    text-decoration: none;
+}
+
+.parallaxMe {
+    background-image: url("../img/space.jpg");
+    height: 20%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row.aboutsMe {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+
+.infoCol {
+    width: 30%;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+
+.infoCol h1 span {
+    border-bottom: 3px solid #4CCDFF;
+}
+
+.rt-col {
+    width: 100%;
+    padding-right: 5%;
+}
+
+.infoCol img {
+    margin-top: 20%;
+    width: 150px;
+    height: 150px;
+    border: 4px solid #fff;
+}
+
+.resume {
+    cursor: pointer;
+    background-color: #00A0FF;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    float: right;
+}
+
+.resume:hover {
+    background: #4CBCFF;
+    transition: .3s;
+}
+
+#experience {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.col-desc {
+    font-style: italic;
+}
+
+.col-desc+p {
+    margin-left: 31.5%;
+    font-size: 15px;
+}
+
+.follow {
+    margin-bottom: 0;
+}
+
+.follow a:hover {
+    opacity: .7;
+}
+
+.down {
+    font-size: 100px;
+    display: block;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    margin-left: -29px;
+    bottom: 30px;
+    text-decoration: none;
+}
+
+.down:hover {
+    color: #B4E0FF;
+}
+
+.personalLinks.mini {
+    display: none;
+}
