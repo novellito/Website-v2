@@ -73,7 +73,7 @@ class Skills extends Component {
                             </i>
                         </div>
                     </div>
-                    <h2>Other experience</h2>
+                    <h3 style={{textAlign: 'center'}}>Some knowledge of: Laravel 5 & C</h3>
                 </section>
 
             </div>

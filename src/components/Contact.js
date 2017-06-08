@@ -10,9 +10,9 @@ class Contact extends Component {
                     <h2 className="follow">Follow Me On
                         <div className="container">
                             <div className="row text-center fromBot">
-                                <a href="https://twitter.com/novellit0" target="_blank"><img src={twitter} alt="twitter"/></a>
-                                <a href="https://www.facebook.com/christian.n.trinidad" target="_blank"><img src={facebook} alt="facebook"/></a>
-                                <a href="https://www.instagram.com/cnovellito/" target="_blank">
+                                <a href="https://twitter.com/novellit0" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter"/></a>
+                                <a href="https://www.facebook.com/christian.n.trinidad" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook"/></a>
+                                <a href="https://www.instagram.com/cnovellito/" target="_blank" rel="noopener noreferrer">
                                     <img src={instagram} alt="instagram"/></a>
                             </div>
                         </div>

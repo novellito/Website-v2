@@ -9,8 +9,9 @@ export default class AboutMe extends Component {
 
           <nav className={"page-header"}>
             <a className={"page-scroll"} href={"#aboutsSection"}>About</a>
+            <a className={"page-scroll"} href={"#skills"}>Dev</a>
             <a className={"page-scroll"} href={"#projects"}>Projects</a>
-            <a className={"page-scroll"} href={"#contact"}>Contact</a>
+            <a href={"#projects"}>Résumé</a>
           </nav>
 
           <div className={"container"}>
@@ -21,7 +22,7 @@ export default class AboutMe extends Component {
           <h1 className={"myName inner"}>I'm
             
             <span id={"typed"}> </span>
-            <div className={"hideContent myDesc"}>| Web Developer | Student | Nerd |</div>
+            <div className={"hideContent myDesc"}> Web Developer | Student | Nerd </div>
           </h1>
 
           <a className={"down page-scroll"} href={"#aboutsSection"}>

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import sr from '../js/scrollreveal.js';
-import {fromLt,fromRt,fromBot,fromTop} from '../js/directions.js';
+import {fromBot,fromTop} from '../js/directions.js';
 
 class Experience extends Component {
 
@@ -30,9 +30,9 @@ componentDidMount = () => {
 
                                 <h3>California State University Northridge</h3>
                                 <p className="col-desc">BS in Computer Science
-                                    <span>•</span>
+                                    <span> • </span>
                                     May 2018
-                                    <span>•</span>
+                                    <span> • </span>
                                     Current GPA: 3.52</p>
                             </div>
                         </div>
@@ -47,10 +47,7 @@ componentDidMount = () => {
 
                             <div className="rt-col fromBot" ref="fromBot">
                                 <h3>CSUN Career Center</h3>
-                                <p className="col-desc">Web Developer<span>
-                                        •
-                                    </span>
-                                    April 2017 - Current</p>
+                                <p className="col-desc">Web Developer<span> • </span>April 2017 - Current</p>
                                 <p>I help create content for the schools career center using various web
                                     technologies. I also coordinate with graphic designers to help plan and design
                                     layouts for our websites.
@@ -66,14 +63,11 @@ componentDidMount = () => {
                             <div className="rt-col fromBot" ref="frombt">
                                 <h3>CSUN Distance Learning Center
                                 </h3>
-                                <p className="col-desc">Web Developer & Technical Support Specialist<span>
-                                        •
-                                    </span>
+                                <p className="col-desc">Web Developer & Technical Support Specialist <span>• </span>
                                     April 2017 - Current</p>
                                 <p>I facilitate one on one training sessions with professors regarding school
-                                    software, provide Quality Assurance checks of course material to ensure that
-                                    they are in compliance with the American Disabilities Act (ADA)., as well as
-                                    upload materials provided by the professors to Moodle, Canvas, and YouTube.
+                                    software, provide Quality Assurance checks of course material, as well as
+                                    upload materials provided by the professors to our learning management systems and YouTube.
                                 </p>
                             </div>
                         </div>

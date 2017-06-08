@@ -6,7 +6,7 @@
 .da-thumbs li {
     float: left;
 	margin: 20px 20px 20px 20px;
-    background: green;
+    border-radius: 10px;    
     padding: 8px;
     position: relative;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -20,32 +20,83 @@
     position: relative;
 }
 
+.da-thumbs li:nth-child(1) {
+    background: #00A0FF;    
+}
+.da-thumbs li:nth-child(3) {
+    background: linear-gradient(black, grey);
+}
+.da-thumbs li:nth-child(2) {
+    background: rgba(251, 168, 15, 0.65);;
+}
+.da-thumbs li:nth-child(4) {
+    background: #b94848;
+}
+
+
+img[alt="noteroom"]{
+    position: absolute;
+    margin: 12% 25%;
+}
+img[alt="trinibot"]{
+    widows: 400px;
+    height:250px;
+}
+
+img[alt="voitcha"]{
+    margin:12% 16%;
+}
+img[alt="webv1"]{
+    margin-left: 8%;
+    width:400px;
+    height:300px;
+}
 .da-thumbs li a {
     overflow: hidden;
 }
 
-.da-thumbs li a div.inner {
+.da-thumbs li a div.hovTitle {
     position: absolute;
-    background: #333;
+    background: rgba(255, 255, 255, .95);
     width: 100%;
     height: 100%;
+    border-radius: 10px;    
+    
 }
 
-.da-thumbs li a div.inner span {
+.da-thumbs li a div.hovTitle span {
     display: block;
     padding: 10px 0;
-    margin: 40px 20px 20px 20px;
-    text-transform: uppercase;
+    margin: 30px 20px 15px 20px;
     font-weight: normal;
-    color: rgba(255, 255, 255, 0.9);
+    color: black;   
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3);
+    border-bottom: 3px solid #797986;
+}
+
+.da-thumbs li a div.hovTitle span.projDesc {
+    display: block;
+    padding: 10px 0;
+    margin: 0px 20px 20px 20px;
+    font-weight: normal;
+    color: black;    
+    border-bottom:none;
+    box-shadow: none;
+}
+
+.da-thumbs li a div.hovTitle span.tech {
+    display: block;
+    padding: 10px 0;
+    margin: 0px 20px 20px 20px;
+    color: black;    
+    border-bottom:none;
+    
+   
 }
 
 div.rectangle {
     width: 500px;
-    height: 280px;
+    height: 285px;
     position: relative;
 }
 
@@ -53,6 +104,12 @@ div.rectangle p.title {
     position: absolute;
     display: block;
     bottom: 3px;
+    font-size:20px;
+    color:white;
+}
+
+.hovTitle span:first-child{
+    font-size:25px;
 }
 
 div.rectangle p.title+p {
@@ -60,6 +117,7 @@ div.rectangle p.title+p {
     display: block;
     bottom: 0;
     margin: 0;
+    color: white;
 }
 
 #aboutsSection .rt-col h3{
