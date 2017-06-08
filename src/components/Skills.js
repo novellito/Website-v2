@@ -20,7 +20,7 @@ class Skills extends Component {
             <div>
                 <section id="skills">
 
-                    <h1 className="skillTitle">Development
+                    <h1 className="skillTitle">Development <i className="fa fa-gavel" aria-hidden="true"></i>
                     </h1>
 
                     <div className="container">

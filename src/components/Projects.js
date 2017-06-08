@@ -12,7 +12,7 @@ class Projects extends Component {
  <div className="wrapper">
 
     <section id="projects">
-        <h1 className="projectTitle">Projects<i className="fa fa-code" aria-hidden="true"></i></h1>
+        <h1 className="projectTitle">Projects <i className="fa fa-code" aria-hidden="true"></i></h1>
         <div className="container">
             <ul id="da-thumbs" className="row da-thumbs">
                 <li className="col-lg-6 col-md-2">

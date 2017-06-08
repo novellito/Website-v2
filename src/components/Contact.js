@@ -7,7 +7,7 @@ class Contact extends Component {
         return (
             <div>
                 <footer id="contact-section">
-                    <h2 className="follow">Follow Me On
+                    <h2 className="follow">Follow Me On <i className="fa fa-handshake-o" aria-hidden="true"></i>
                         <div className="container">
                             <div className="row text-center fromBot">
                                 <a href="https://twitter.com/novellit0" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter"/></a>
