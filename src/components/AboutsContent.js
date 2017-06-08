@@ -27,7 +27,7 @@ class AboutsContent extends Component {
                 <div className="rt-col " ref='fromRight'>
 
                     <h3 className="fromRight" >About Me</h3>
-                    <p className="fromRight" >I am an undergraduate student studying computer science at California State University Northridge, specializing
+                    <p className="fromRight" >I'm an undergraduate student studying computer science at California State University Northridge, specializing
                         in web engineering. I'm currently a web developer for my university's Career Center as well as a
                         technical support specialist for our Distance Learning Center. Outside the world of programming,
                         I enjoy working out, listening to music, and growing my sneaker collection.</p>

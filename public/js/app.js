@@ -16,7 +16,7 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 125,
+        "value": 100,
         "density": {
           "enable": true,
           "value_area": 800
@@ -35,7 +35,7 @@ particlesJS('particles-js',
           "nb_sides": 5
         },
         "image": {
-          "src": "img/github.svg",
+          "src": "../../img/me.jpg",
           "width": 100,
           "height": 100
         }
@@ -112,7 +112,7 @@ particlesJS('particles-js',
           "distance": 200
         },
         "push": {
-          "particles_nb": 4
+          "particles_nb": 7
         },
         "remove": {
           "particles_nb": 2
