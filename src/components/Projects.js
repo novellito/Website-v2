@@ -20,7 +20,7 @@ class Projects extends Component {
                         <div className="rectangle">
                         <img src={noteroom} alt="noteroom"/>
                             <p className="title">NoteRoom</p>
-                            <p>A collaborative note taking experience.</p>
+                            <p>Collaborative note taking</p>
                         </div>
                         <div className="hovTitle">
                             <span>NoteRoom</span>

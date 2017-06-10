@@ -1,0 +1,27 @@
+1. Christian Trinidad
+2. phone: 8184285874 / Email: novellito7@gmail.com
+3. Expected Grad Date: May 2018
+4. Major: Computer Science
+5. Career Aspiration: Full Stack Developer
+6. Philippines / Northridge CA
+7. Bio: I am a junior CS student with an avid interest in full stack development. Eveything I know related to web development is 
+self taught and I have dedicated countless hours to learning new technologies. A recent accomplishment would be winning 2nd place at the Accessibilities 
+competition here at CSUN as well as making the Dean's List for the third year in a row. 
+
+Best piece of IT advice
+    Don't try to change or modify something that is already working unless you really know what you're doing.
+
+My 3 tech support advices
+    1. If  it's not working, trying restarting it and if restarting didn't solve the issue then you should try to Google (stackoverflow) it.
+    2. Probably any technical issue you will run into has also been experienced by someone else, so you are only a couple Google searches away 
+    from finding the solution to your problem.
+    3. Be on top of the latest tech trends, because it is possible that the issues you could have been having may have been fixed with an update.
+    4. Just because I'm a CS major doesn't mean I can fix your computer.
+
+Best Advice at an internship
+    I personally have not had an internship experience but the best work related advice I've had is to be respectful of other people's opinions 
+    regardless of whether you agree with it or not. 
+
+Any other advice on technology?
+   Don't fall into the trap of buying something every year just for that one small upgrade, because technology will always be evolving to the point that
+   you'll run out of money if you keep trying to keep up with the latest products. 
