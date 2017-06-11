@@ -7,7 +7,6 @@ class AboutsContent extends Component {
  componentDidMount = () => {
     sr.reveal(this.refs.fromLeft, fromLt);
     sr.reveal(this.refs.fromRight, fromRt);
-
  }
   render() {
     return (
@@ -44,6 +43,5 @@ class AboutsContent extends Component {
     );
   }
 }
-
 
 export default AboutsContent;

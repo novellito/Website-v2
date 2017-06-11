@@ -13,6 +13,7 @@ class Skills extends Component {
         sr.reveal(this.refs.fromRight, fromRt);
         sr.reveal(this.refs.fromTop, fromTop);
         sr.reveal(this.refs.fromBot, fromBot);
+        sr.reveal(this.refs.fromBt, fromBot);
 
     }
     render() {
@@ -73,7 +74,7 @@ class Skills extends Component {
                             </i>
                         </div>
                     </div>
-                    <h3 style={{textAlign: 'center'}}>Some knowledge of: Laravel 5 & C</h3>
+                    <p style={{textAlign: 'center', fontSize: '15px'}}  ref="fromBt">Some experience with: Laravel 5, C, Photoshop, Agile/ Scrum methodologies</p>
                 </section>
 
             </div>

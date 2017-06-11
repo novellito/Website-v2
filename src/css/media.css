@@ -769,3 +769,29 @@ screen and (max-width:460px) {
         padding-left: 15%;
     }
 }
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    img[alt="noteroom"] {
+        position: absolute;
+        margin: 18% 25%;
+    }
+    img[alt="trinibot"] {
+        width: 400px;
+        height: 250px;
+        margin: 0% -7%;
+    }
+    img[alt="voitcha"] {
+        margin: 12% 10%;
+    }
+    img[alt="webv1"] {
+        margin-left: 1%;
+        width: 400px;
+        height: 300px;
+    }
+
+    .da-thumbs li a div.hovTitle span.tech {
+        
+    margin: -6% 20px 20px 20px;
+   
+}
+}

@@ -52,8 +52,8 @@ class Experience extends Component {
                             <div className="rt-col fromBot" ref="fromBot">
                                 <h3>CSUN Career Center</h3>
                                 <p className="col-desc">Web Developer<span> • </span>April 2017 - Current</p>
-                                <p>I help create content for the schools career center using various web
-                                    technologies. I also coordinate with graphic designers to help plan and design
+                                <p>I create content for the schools career center using various web
+                                    technologies and also assist our graphic designers in planning and designing
                                     layouts for our websites.
                                 </p>
                             </div>
@@ -75,7 +75,7 @@ class Experience extends Component {
                                     <span> • </span>
                                     April 2017 - Current</p>
                                 <p>I facilitate one on one training sessions with professors regarding school
-                                    software, provide Quality Assurance checks of course material, as well as upload
+                                    software, provide Quality Assurance checks of course material, and upload
                                     materials provided by the professors to our learning management systems and
                                     YouTube.
                                 </p>

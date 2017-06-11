@@ -298,7 +298,6 @@ nav a:focus {
     background-size: cover;
     color: white;
     font-family: 'Rubik', sans-serif;
-    
 }
 
 .follow {
@@ -467,4 +466,15 @@ nav a:focus {
 
 .personalLinks.mini {
     display: none;
+}
+
+.socials i {
+    font-size: 40px;
+    color: white;
+    margin: 0px 2%;
+}
+
+.socials i:hover {
+    color: #00A0FF;
+    transition: .3s;
 }

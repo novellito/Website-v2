@@ -38,7 +38,7 @@ class Projects extends Component {
                         <div className="rectangle">
                             <img src={TriniBot} alt="trinibot"/>                            
                             <p className="title">TriniBot</p>
-                            <p>My personal Twitter Bot</p>
+                            <p>My personal Twitter bot</p>
                         </div>
                         <div className="hovTitle">
                             <span>TriniBot</span>
@@ -54,7 +54,7 @@ class Projects extends Component {
                     </a>
                 </li>
                 <li className="col-lg-6 col-md-2">
-                    <a href="x">
+                    <a href="https://novellito.github.io" target="_blank" rel="noopener noreferrer">
                         <div className="rectangle">
                             <img src={wv1} alt="webv1"/>                                                        
                             <p className="title">Website v1</p>
