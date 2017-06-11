@@ -500,7 +500,7 @@
 //typeload
 document.addEventListener('DOMContentLoaded', function(){
         Typed.new("#typed", {
-            strings: [" a web developer.", " a student.", " a nerd.", 
+            strings: [" a web developer.", " a student.", 
             " Christian Trinidad"],
             typeSpeed: 35,
             startDelay:500,
