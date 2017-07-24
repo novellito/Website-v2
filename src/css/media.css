@@ -4,7 +4,7 @@
     .projectTitle,
     .follow {
         font-size: 40px;
-         background: #34607F;
+        background: #34607F;
     }
     .me {
         margin-top: 12%;
@@ -32,7 +32,15 @@
         margin-top: 3%;
         font-size: 25px;
     }
-    
+    img[alt="cs-planner"] {
+        position: absolute;
+        margin: 20% 6%;
+    }
+    img[alt="scrambleDash"] {
+        position: absolute;
+        margin: 0 3%;
+        height: 290px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -100,7 +108,15 @@
         margin-top: 10%;
         margin-left: 22%;
     }
-     
+    img[alt="cs-planner"] {
+        position: absolute;
+        margin: 20% 12%;
+    }
+    img[alt="scrambleDash"] {
+        position: absolute;
+        margin: 0 9%;
+        height: 290px;
+    }
 }
 
 @media(max-width:757px) {
@@ -114,6 +130,15 @@
         box-sizing: border-box;
         -moz-box-sizing: border-box;
         position: relative;
+    }
+    img[alt="cs-planner"] {
+        position: absolute;
+        margin: 20% 4%;
+    }
+    img[alt="scrambleDash"] {
+        position: absolute;
+        margin: 0;
+        height: 290px;
     }
     img[alt="noteroom"] {
         position: absolute;
@@ -171,7 +196,6 @@
     .myName {
         font-size: 60px;
     }
-    
 }
 
 
@@ -197,7 +221,6 @@
     .myName {
         font-size: 30px;
     }
-    
 }
 
 @media(max-width:670px) {
@@ -355,7 +378,6 @@ screen and (max-width:460px) {
     .down {
         display: none;
     }
-   
 }
 
 
@@ -375,6 +397,15 @@ screen and (max-width:460px) {
     .myName,
     .myDesc {
         font-size: 20px;
+    }
+    img[alt="cs-planner"] {
+        position: absolute;
+        margin: 20% 14%;
+    }
+    img[alt="scrambleDash"] {
+        position: absolute;
+        margin: 0 9%;
+        height: 290px;
     }
     img[alt="trinibot"] {
         width: 400px;
@@ -410,7 +441,6 @@ screen and (max-width:460px) {
         padding-left: 0%;
         margin-left: -10%;
     }
-   
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) {
@@ -437,6 +467,16 @@ screen and (max-width:460px) {
     }
     .da-thumbs li a div.hovTitle span {
         margin: 0px 20px 0px 20px;
+    }
+    img[alt="cs-planner"] {
+        position: absolute;
+        margin: 25% 6%;
+        width: 250px;
+    }
+    img[alt="scrambleDash"] {
+        position: absolute;
+        margin: -10% -15%;
+        height: 290px;
     }
     img[alt="noteroom"] {
         position: absolute;
@@ -471,7 +511,6 @@ screen and (max-width:460px) {
         max-width: 100%;
         height: 100%;
     }
- 
     nav {
         display: none;
     }
@@ -578,9 +617,17 @@ screen and (max-width:460px) {
     .da-thumbs li a div.hovTitle span {
         margin: 15px 20px 0px 20px;
     }
-  
     #da-thumbs {
         padding-left: 0%;
+    }
+    img[alt="cs-planner"] {
+        position: absolute;
+        margin: 25% 2%;
+    }
+    img[alt="scrambleDash"] {
+        position: absolute;
+        margin: -5% -4%;
+        height: 290px;
     }
     img[alt="noteroom"] {
         margin: 18% 25%;
@@ -623,7 +670,6 @@ screen and (max-width:460px) {
         margin: 0 auto;
         float: none;
     }
-  
     .resume {
         float: none;
         font-size: 14px;
@@ -647,17 +693,26 @@ screen and (max-width:460px) {
         width: 500px;
         height: 300px;
     }
-  
     div.rectangle {
         width: 500px;
         height: 285px;
         position: relative;
     }
     #da-thumbs {
-        padding-left: 0%; /*was at 0px*/
+        padding-left: 0%;
+        /*was at 0px*/
     }
     #aboutsSection p {
         font-size: 15px;
+    }
+    img[alt="cs-planner"] {
+        position: absolute;
+        margin: 20% 12%;
+    }
+    img[alt="scrambleDash"] {
+        position: absolute;
+        margin: 0 9%;
+        height: 290px;
     }
     img[alt="noteroom"] {
         position: absolute;
@@ -698,7 +753,6 @@ screen and (max-width:460px) {
         height: 250px;
         margin-left: -4%;
     }
-    
     img[alt="voitcha"] {
         margin: 12% 10%;
     }
@@ -771,7 +825,6 @@ screen and (max-width:460px) {
     .da-thumbs li a div.hovTitle span.tech {
         display: none;
     }
-   
 }
 
 @media only screen and (max-device-width: 640px) and (min-device-height:360px) and (orientation:landscape) {
@@ -791,7 +844,6 @@ screen and (max-width:460px) {
     #da-thumbs {
         padding-left: 15%;
     }
-    
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
@@ -815,5 +867,4 @@ screen and (max-width:460px) {
     .da-thumbs li a div.hovTitle span.tech {
         margin: -6% 20px 20px 20px;
     }
-   
 }

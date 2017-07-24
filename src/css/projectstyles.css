@@ -1,6 +1,7 @@
 .da-thumbs {
     list-style: none;
     position: relative;
+    padding-left:10px;
 }
 
 .da-thumbs li {
@@ -10,7 +11,7 @@
     padding: 8px;
     position: relative;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    width: 500px;
+    width: 525px; 
     height: 300px;
 }
 
@@ -21,21 +22,38 @@
 }
 
 .da-thumbs li:nth-child(1) {
+    background: #D00D2D;
+}
+.da-thumbs li:nth-child(2) {
+    background: #36479e;
+}
+.da-thumbs li:nth-child(3) {
     background: #00A0FF;
 }
 
-.da-thumbs li:nth-child(3) {
-    background: linear-gradient(black, grey);
-}
-
-.da-thumbs li:nth-child(2) {
+.da-thumbs li:nth-child(4) {
     background: rgba(251, 168, 15, 0.65);
 }
 
-.da-thumbs li:nth-child(4) {
+.da-thumbs li:nth-child(5) {
+    background: linear-gradient(black, grey);
+}
+
+
+
+.da-thumbs li:nth-child(6) {
     background: #b94848;
 }
 
+img[alt="cs-planner"] {
+    position: absolute;
+    margin: 20% 14%;
+}
+img[alt="scrambleDash"] {
+    position: absolute;
+    margin: 0 10%;
+    height:290px;
+}
 img[alt="noteroom"] {
     position: absolute;
     margin: 18% 30%;
@@ -101,7 +119,7 @@ img[alt="webv1"] {
 }
 
 div.rectangle {
-    width: 500px;
+    width: 525px;
     height: 285px;
     position: relative;
 }

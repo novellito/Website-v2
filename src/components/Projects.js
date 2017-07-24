@@ -3,19 +3,56 @@ import noteroom from '../img/nr.png';
 import TriniBot from '../img/bot.png';
 import voitcha from '../img/voitcha.png'
 import wv1 from '../img/webv1.JPG';
+import scramble from '../img/scramDash.png';
+import csun from '../img/csuncs.jpg';
 
 class Projects extends Component {
   render() {
     return (
       <div>
 
- <div className="wrapper">
 
     <section id="projects">
         <h1 className="projectTitle">Projects <i className="fa fa-code" aria-hidden="true"></i></h1>
-        <div className="container">
+         <div className="container"> 
             <ul id="da-thumbs" className="row da-thumbs">
-                <li className="col-lg-6 col-md-2">
+                <li className="col-lg-4 col-md-6">
+                    <a href="https://github.com/novellito/myCsun-mean-app" target="_blank" rel="noopener noreferrer">
+                        <div className="rectangle">
+                        <img src={csun} alt="cs-planner"/>
+                            <p className="title">CSUN-CS Planner</p>
+                            <p>Plan your classes</p>
+                        </div>
+                        <div className="hovTitle">
+                            <span>CSUN-CS Planner</span>
+                            <span className="projDesc">  
+                                This app was created mainly as a proof of concept. The app's main goal is to help CS students at CSUN to create and plan out their future class schedules.
+                            </span>
+                            <span className="tech">
+                                Technology used: MEAN Stack (MongoDB, Express.js, Angular 4, Node.js)
+                                </span>      
+                        </div>
+                    </a>
+                </li>
+                <li className="col-lg-4 col-md-6">
+                    <a href="https://github.com/novellito/scramble-dash" target="_blank" rel="noopener noreferrer">
+                        <div className="rectangle">
+                        <img src={scramble} alt="scrambleDash"/>
+                            <p className="title">Scramble - Dash</p>
+                            <p>A simple word game</p>
+                        </div>
+                        <div className="hovTitle">
+                            <span>Scramble - Dash</span>
+                            <span className="projDesc">  
+                                Scramble-Dash was created to allow me to get more familiarized with how props and states work in React.js. It also incorporates a backend where user highscores can be posted and retrieved.
+                            </span>
+                            <span className="tech">
+                                Technology used: MERN Stack (MySQL, Express.js, React.js, Node.js)
+                                </span>      
+                        </div>
+                    </a>
+                </li>
+                <li className="col-lg-4 col-md-6">
                     <a href="https://github.com/novellito/Note-Room" target="_blank" rel="noopener noreferrer">
                         <div className="rectangle">
                         <img src={noteroom} alt="noteroom"/>
@@ -33,7 +70,7 @@ class Projects extends Component {
                         </div>
                     </a>
                 </li>
-                <li className="col-lg-6 col-md-2">
+                <li className="col-lg-4 col-md-6">
                     <a href="https://github.com/novellito/twitterBot" target="_blank" rel="noopener noreferrer">
                         <div className="rectangle">
                             <img src={TriniBot} alt="trinibot"/>                            
@@ -45,7 +82,7 @@ class Projects extends Component {
                             <span className="projDesc">
                                 TriniBot was initially created to learn the basics of Node.js. 
                                 I have 3 iterations of the project in which the complexity gradually increases. The first is a basic command line interface,
-                                the second has a GUI (made with handlebars), and the third has been deployed to Heroku.
+                                the second has a GUI (made with handlebars), and the third was deployed to Heroku.
                             </span>
                             <span className="tech">
                                 Technology used: Node.js, Twitter API, Handlebars, Express.js
@@ -53,7 +90,7 @@ class Projects extends Component {
                         </div>
                     </a>
                 </li>
-                <li className="col-lg-6 col-md-2">
+                <li className="col-lg-4 col-md-6">
                     <a href="https://novellito.github.io" target="_blank" rel="noopener noreferrer">
                         <div className="rectangle">
                             <img src={wv1} alt="webv1"/>                                                        
@@ -69,7 +106,7 @@ class Projects extends Component {
                         </div>
                     </a>
                 </li>
-                <li className="col-lg-6 col-md-2">
+                <li className="col-lg-4 col-md-6">
                     <a href="https://github.com/novellito/CSUN-Accessibility-Competition-Project" target="_blank" rel="noopener noreferrer">
                         <div className="rectangle">
                             <img src={voitcha} alt="voitcha"/>                                                        
@@ -89,10 +126,9 @@ class Projects extends Component {
                     </a>
                 </li>
             </ul>
-        </div>
+         </div> 
     </section>
       
-      </div>
       </div>
     );
   }
