@@ -211,10 +211,6 @@ nav a:focus {
     z-index: 10;
 }
 
-.personalLinks a {
-    display: inline-block;
-}
-
 .personalLinks i,
 .personalLinks.mini i {
     font-size: 40px;
@@ -343,22 +339,15 @@ nav a:focus {
     color: white;
 }
 
-#contact-section img {
-    width: 50px;
-    height: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 #contact-section .row {
     margin-top: 10px;
     padding-bottom: 10px;
 }
 
-#contact-section a,
-#contact-section p {
-    font-size: 20px;
-    margin-bottom: 25px;
+#contact-section a{
+     width:34px; 
+     height:40px; 
+     margin: 0px 2%;
 }
 
 #contact-section a:hover {
@@ -469,9 +458,7 @@ nav a:focus {
 }
 
 .socials i {
-    font-size: 40px;
     color: white;
-    margin: 0px 2%;
 }
 
 .socials i:hover {
