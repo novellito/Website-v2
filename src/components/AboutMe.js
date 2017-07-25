@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import me from '../img/me.jpg';
+import resume from './christianTrinidad_Resume2017.pdf';
+
 
 export default class AboutMe extends Component {
   render() {
@@ -10,7 +12,7 @@ export default class AboutMe extends Component {
             <a className="page-scroll" href="#aboutsSection">About</a>
             <a className="page-scroll" href="#skills">Dev</a>
             <a className="page-scroll" href="#projects">Projects</a>
-            <a href="#projects">Résumé</a>
+            <a href={resume} target="_blank" rel="noopener noreferrer">Résumé</a>
           </nav>
 
           <div className="container">

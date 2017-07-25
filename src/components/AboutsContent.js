@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import xtian from '../img/xtian.png';
 import sr from '../js/scrollreveal.js';
 import {fromLt,fromRt} from '../js/directions.js';
-
+import resume from './christianTrinidad_Resume2017.pdf';
 class AboutsContent extends Component {
  componentDidMount = () => {
     sr.reveal(this.refs.fromLeft, fromLt);
@@ -29,8 +29,8 @@ class AboutsContent extends Component {
                     <p className="fromRight" >I'm an undergraduate student studying computer science at California State University Northridge, specializing
                         in web engineering. I'm currently a web developer for my university's Career Center as well as a
                         technical support specialist for our Distance Learning Center. Outside the world of programming,
-                        I enjoy working out, listening to music, and growing my sneaker collection.</p>
-                    <a href="#x"><button className="resume fromRight" ref='fromRight'><i className="fa fa-download" ></i>   Download Résumé (PDF)</button></a>
+                        I enjoy playing basketball, listening to music, and growing my sneaker collection.</p>
+                    <a href={resume} target="_blank" rel="noopener noreferrer"><button className="resume fromRight" ref='fromRight'><i className="fa fa-download" ></i>   Download Résumé (PDF)</button></a>
                 </div>
                  <div className="personalLinks mini">
                         <a href="https://github.com/novellito" rel="noopener noreferrer"><i className="fa fa-github-alt social-ink"
