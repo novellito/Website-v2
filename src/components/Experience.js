@@ -51,9 +51,9 @@ class Experience extends Component {
 
                             <div className="rt-col fromBot" ref="fromBot">
                                 <h3>CSUN Career Center</h3>
-                                <p className="col-desc">Web Developer<span> • </span>April 2017 - Current</p>
-                                <p>I create content for the schools career center using various web
-                                    technologies and also assist our graphic designers in planning and designing
+                                <p className="col-desc">Web Developer<span> • </span>April 2017 - July 2017</p>
+                                <p>I created content for my university's career center using various web
+                                    technologies and also assisted our graphic designers in planning
                                     layouts for our websites.
                                 </p>
                             </div>
