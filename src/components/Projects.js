@@ -26,7 +26,7 @@ class Projects extends Component {
                         <div className="hovTitle">
                             <span>CSUN-CS Planner</span>
                             <span className="projDesc">  
-                                This app was created mainly as a proof of concept. The app's main goal is to help CS students at CSUN to create and plan out their future class schedules.
+                                This app encompasses what I have learned over the last several months. It's goal is to allow CS majors at my university to create and plan their future class schedules.
                             </span>
                             <span className="tech">
                                 Technology used: MEAN Stack (MongoDB, Express.js, Angular 4, Node.js)
@@ -44,10 +44,10 @@ class Projects extends Component {
                         <div className="hovTitle">
                             <span>Scramble - Dash</span>
                             <span className="projDesc">  
-                                Scramble-Dash was created to allow me to get more familiarized with how props and states work in React.js. It also incorporates a backend where user highscores can be posted and retrieved.
+                                Scramble-Dash was created to allow me to get more familiarized with some of the features in React.js. It also incorporates a backend where user highscores can be posted and retrieved.
                             </span>
                             <span className="tech">
-                                Technology used: MERN Stack (MySQL, Express.js, React.js, Node.js)
+                                Technology used: MERN Stack (MySQL, Express.js, React.js, Node.js), Mocha
                                 </span>      
                         </div>
                     </a>

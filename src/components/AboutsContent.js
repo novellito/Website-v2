@@ -27,9 +27,9 @@ class AboutsContent extends Component {
 
                     <h3 className="fromRight" >About Me</h3>
                     <p className="fromRight" >I'm an undergraduate student studying computer science at California State University Northridge, specializing
-                        in web engineering. I'm currently a web developer for my university's Career Center as well as a
+                        in web engineering. I'm a former web developer for my university's Career Center and currently a
                         technical support specialist for our Distance Learning Center. Outside the world of programming,
-                        I enjoy working out, listening to music, and growing my sneaker collection.</p>
+                        I enjoy playing basketball, listening to music, and growing my sneaker collection.</p>
                     <a href="#x"><button className="resume fromRight" ref='fromRight'><i className="fa fa-download" ></i>   Download Résumé (PDF)</button></a>
                 </div>
                  <div className="personalLinks mini">
