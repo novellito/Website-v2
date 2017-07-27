@@ -31,7 +31,10 @@ class Experience extends Component {
                                 <h3>California State University Northridge</h3>
                                 <p className="col-desc">BS in Computer Science <span> • </span>
                                     May 2018<span> • </span>
-                                    Current GPA: 3.52</p>
+                                    Deans List Fall 2014-2017 
+                                    <span> • </span>                                    
+                                    Current GPA: 3.52
+                                    </p>
                             </div>
                         </div>
 
