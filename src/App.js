@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './css/index.css';
-import './font-awesome-4.7.0/css/font-awesome.css';
 import './css/projectstyles.css';
 import './css/media.css';
 import AboutMe from './components/AboutMe';

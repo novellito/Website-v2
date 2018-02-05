@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import vscode from '../img/vscode.png';
-import intellij from '../img/intellij.svg';
+import vscode from '../assets/vscode.png';
+import intellij from '../assets/intellij.svg';
 import '../css/devicon.css';
 import '../css/devicon-colors.css';
 import sr from '../js/scrollreveal.js';

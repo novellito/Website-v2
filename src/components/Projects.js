@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import noteroom from '../img/nr.png';
-import TriniBot from '../img/bot.png';
-import voitcha from '../img/voitcha.png'
-import wv1 from '../img/webv1.JPG';
-import scramble from '../img/scramDash.png';
-import csun from '../img/csuncs.jpg';
+import noteroom from '../assets/nr.png';
+import TriniBot from '../assets/bot.png';
+import voitcha from '../assets/voitcha.png'
+import wv1 from '../assets/webv1.JPG';
+import scramble from '../assets/scramDash.png';
+import csun from '../assets/csuncs.jpg';
 
 class Projects extends Component {
   render() {

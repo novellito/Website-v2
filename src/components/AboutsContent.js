@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import xtian from '../img/xtian.png';
+import xtian from '../assets/xtian.png';
 import sr from '../js/scrollreveal.js';
 import {fromLt,fromRt} from '../js/directions.js';
-import resume from './christianTrinidad_Resume2017.pdf';
+import resume from '../assets/christianTrinidad_Resume2017.pdf';
 class AboutsContent extends Component {
  componentDidMount = () => {
     sr.reveal(this.refs.fromLeft, fromLt);
