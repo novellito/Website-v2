@@ -15,8 +15,8 @@ class Projects extends Component {
     <section id="projects">
         <h1 className="projectTitle">Projects <i className="fa fa-code" aria-hidden="true"></i></h1>
          <div className="container"> 
-            <ul id="da-thumbs" className="row da-thumbs">
-                <li className="col-lg-4 col-md-6">
+            <ul id="da-thumbs" className="da-thumbs">
+                <li>
                     <a href="https://github.com/novellito/myCsun-mean-app" target="_blank" rel="noopener noreferrer">
                         <div className="rectangle">
                         <img src={csun} alt="cs-planner"/>
@@ -34,7 +34,7 @@ class Projects extends Component {
                         </div>
                     </a>
                 </li>
-                <li className="col-lg-4 col-md-6">
+                <li>
                     <a href="https://github.com/novellito/scramble-dash" target="_blank" rel="noopener noreferrer">
                         <div className="rectangle">
                         <img src={scramble} alt="scrambleDash"/>
@@ -52,7 +52,7 @@ class Projects extends Component {
                         </div>
                     </a>
                 </li>
-                <li className="col-lg-4 col-md-6">
+                <li>
                     <a href="https://github.com/novellito/Note-Room" target="_blank" rel="noopener noreferrer">
                         <div className="rectangle">
                         <img src={noteroom} alt="noteroom"/>
@@ -70,7 +70,7 @@ class Projects extends Component {
                         </div>
                     </a>
                 </li>
-                <li className="col-lg-4 col-md-6">
+                <li>
                     <a href="https://github.com/novellito/twitterBot" target="_blank" rel="noopener noreferrer">
                         <div className="rectangle">
                             <img src={TriniBot} alt="trinibot"/>                            
@@ -90,7 +90,7 @@ class Projects extends Component {
                         </div>
                     </a>
                 </li>
-                <li className="col-lg-4 col-md-6">
+                <li>
                     <a href="https://novellito.github.io" target="_blank" rel="noopener noreferrer">
                         <div className="rectangle">
                             <img src={wv1} alt="webv1"/>                                                        
@@ -106,7 +106,7 @@ class Projects extends Component {
                         </div>
                     </a>
                 </li>
-                <li className="col-lg-4 col-md-6">
+                <li>
                     <a href="https://github.com/novellito/CSUN-Accessibility-Competition-Project" target="_blank" rel="noopener noreferrer">
                         <div className="rectangle">
                             <img src={voitcha} alt="voitcha"/>                                                        
