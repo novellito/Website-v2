@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import me from '../assets/me.jpg';
-import resume from '../assets/christianTrinidad_Resume2017.pdf';
+import resume from '../assets/christianTrinidad_Resume2018.pdf';
 
 
 export default class AboutMe extends Component {

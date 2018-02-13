@@ -74,7 +74,7 @@ class Skills extends Component {
                             </i>
                         </div>
                     </div>
-                    <p style={{textAlign: 'center', fontSize: '15px'}}  ref="fromBt">Some experience with: Laravel 5, C, Photoshop, Agile/ Scrum methodologies</p>
+                    <p style={{textAlign: 'center', fontSize: '15px'}}  ref="fromBt">Some experience with: Agile/ Scrum methodologies, Laravel 5, Photoshop</p>
                 </section>
 
             </div>

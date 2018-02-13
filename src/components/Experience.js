@@ -33,7 +33,7 @@ class Experience extends Component {
                                     May 2018<span> • </span>
                                     Deans List Fall 2014-2017 
                                     <span> • </span>                                    
-                                    Current GPA: 3.52
+                                    Current GPA: 3.56
                                     </p>
                             </div>
                         </div>
