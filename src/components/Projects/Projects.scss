@@ -1,0 +1,23 @@
+
+.row-cont {
+    display:grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    .row-cont {
+        display:grid;
+        grid-template-columns: 4fr 4fr;
+        grid-gap: 20px;
+    }
+}
+@media screen and (min-width: 950px) {
+    .row-cont {
+        display:grid;
+        grid-template-columns: 4fr 4fr 4fr;
+        grid-gap: 20px;
+    }
+}

@@ -1,0 +1,45 @@
+#foot {
+    padding: 30px;
+    height: 80px;
+    background-color: #4474b9;
+}
+
+.ul-container {
+    display: flex;
+    margin-bottom: -10px;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+    i {
+        margin: 0 25px;
+        color: white;
+        &:hover {
+            color: #00a0ff;
+        }
+    }
+}
+
+.love {
+    color: white;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 766px) {
+    .ul-container {
+        float: left;
+    }
+    .love {
+        float: right;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    #foot {
+        padding: 0;
+        height: 80px;
+    }
+    .ul-container {
+        padding-top: 25px;
+    }
+}

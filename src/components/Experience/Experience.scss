@@ -1,0 +1,63 @@
+$heading-color:#3c4858;
+#experience {
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.exp-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: "education" "university" "work" "w1" "w2";
+    margin: 20px;
+    color: #000;
+    p {
+        font-family: 'Open Sans', sans-serif;
+        &.info-desc {
+            font-style: italic;
+            font-size: 1rem;
+        }
+        &.info-title {
+            font-size: 1.23rem;
+            font-weight: bold;
+            margin-bottom: .25rem;
+        }
+        @media screen and (min-width: 768px) {
+            display: flex;
+            text-align: left;
+        }
+    }
+}
+
+.education {
+    grid-area: education;
+    text-decoration: underline;
+    text-decoration-color: #4ccdff;
+    color: $heading-color;
+}
+
+.university {
+    grid-area: university;
+}
+
+.work {
+    grid-area: work;
+    text-decoration: underline;
+    text-decoration-color: #4ccdff;
+    color: $heading-color;
+}
+
+.w1 {
+    grid-area: w1;
+}
+
+.w2 {
+    grid-area: w2;
+}
+
+@media screen and (min-width: 768px) {
+    .exp-container {
+        grid-template-columns: 1fr 1fr 4fr;
+        grid-gap: 50px;
+        grid-template-areas: "education . university " "work . w1  " ". . w2";
+    }
+}
