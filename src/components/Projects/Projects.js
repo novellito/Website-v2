@@ -8,6 +8,7 @@ import voitcha from '../../assets/voitcha.png';
 import rtc from '../../assets/rtc.png';
 import dl from '../../assets/dlTools.png'
 import web from '../../assets/website.png'
+import todo from '../../assets/todo.jpg';
 import Project from './Project/Project';
 import desc from './Descriptions'
 import WOW from 'wowjs';
@@ -51,6 +52,13 @@ const projects = (props) => {
                         style={{backgroundColor:'#00a0ff'}}
                         imgSrc={noteroom}></Project>
 
+                    <Project
+                        description={desc[8]}                    
+                        techProp={['MongoDb', 'Express.js', 'React.js','Node.js', ]}
+                        projectName="Todo App"
+                        projLink="https://github.com/novellito/Web-Engineering"
+                        style={{backgroundColor:'white'}}
+                        imgSrc={todo}></Project>
                     <Project
                         description={desc[3]}                    
                         techProp={['Node.js', 'Twitter API', 'Handlebars']}

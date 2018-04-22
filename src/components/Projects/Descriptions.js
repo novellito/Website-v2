@@ -13,7 +13,8 @@ const descriptions = [
     "Voitcha is an android application that was created in the span of 3 days for ou" +
             "r schools programming competition, where we took 2nd place.",
             "Two small applications created to speed up the work process at Tseng College",
-            "An application that aims to simplify the captioning process for both students and captionists."
+            "An application that aims to simplify the captioning process for both students and captionists.",
+            "A simple Todo App that uses React.js & Redux along with Mongodb & Node.js"
 ];
 
 export default descriptions;
