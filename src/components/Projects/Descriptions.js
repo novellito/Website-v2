@@ -14,7 +14,8 @@ const descriptions = [
             "r schools programming competition, where we took 2nd place.",
             "Two small applications created to speed up the work process at Tseng College",
             "An application that aims to simplify the captioning process for both students and captionists.",
-            "A simple Todo App that uses React.js & Redux along with Mongodb & Node.js"
+            "A simple Todo App that uses React.js & Redux along with Mongodb & Node.js",
+            "A chat application created with the MEVN stack and Socket.io."
 ];
 
 export default descriptions;

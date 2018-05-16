@@ -9,6 +9,7 @@ import rtc from '../../assets/rtc.png';
 import dl from '../../assets/dlTools.png'
 import web from '../../assets/website.png'
 import todo from '../../assets/todo.jpg';
+import chat from '../../assets/vueChat.png';
 import Project from './Project/Project';
 import desc from './Descriptions'
 import WOW from 'wowjs';
@@ -41,7 +42,7 @@ const projects = (props) => {
                         description={desc[7]}
                         techProp={['MongoDb', 'Express.js', 'Angular', 'Node.js']}
                         projectName="Real Time Captioning"
-                        projLink="https://github.com/CSUN-Comp490/RealTimeCaptioning"
+                        projLink="https://github.com/novellito/Real-Time-Captioning"
                         style={{backgroundColor:'#262626'}}
                         imgSrc={rtc}></Project>
                     <Project
@@ -59,6 +60,13 @@ const projects = (props) => {
                         projLink="https://github.com/novellito/Web-Engineering"
                         style={{backgroundColor:'white'}}
                         imgSrc={todo}></Project>
+                    <Project
+                        description={desc[9]}                    
+                        techProp={['MongoDb', 'Express.js', 'Vue.js','Node.js', ]}
+                        projectName="Vuetiful Chat"
+                        projLink="https://github.com/novellito/Web-Engineering/tree/master/chat-app"
+                        style={{backgroundColor:'#1b1b1b'}}
+                        imgSrc={chat}></Project>
                     <Project
                         description={desc[3]}                    
                         techProp={['Node.js', 'Twitter API', 'Handlebars']}
