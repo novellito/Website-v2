@@ -1,8 +1,8 @@
 const descriptions = [
     "An application whose goal is to allow CS majors at my university to create and plan their future" +
             " class schedules.",
-    "Scramble-Dash was created to get me more familiarized with some of the " +
-            "features in React.js. It also incorporates a backend where user highscores can b" +
+    "Scramble-Dash was created to get me familiarized with some of the " +
+            "features of React.js. It also incorporates a backend where user highscores can b" +
             "e posted and retrieved.",
     "NoteRoom was created to assist students in taking notes in class. The app allowe" +
             "d for better organization of notes while also allowing students to take notes si" +
