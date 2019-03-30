@@ -1,3 +1,3 @@
 # website-react
 
-This repo contains the production code for http://www.cntrinidad.me/
+This repo contains the code for my second portfolio
